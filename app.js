@@ -60,11 +60,5 @@ export default class Effects {
     }
 }
 
-const elemSlide = document.querySelector('#slide_elem'),
-    btnSlide = document.querySelector('.slide');
-btnSlide.addEventListener('click', function (evt) {
-    evt.preventDefault();
-    Effects.slideToggle(elemSlide);
-});
 
 
